@@ -1,0 +1,69 @@
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__container {
+  align-items: baseline;
+  display: flex;
+}
+.footer__contact-box {
+  margin-right: 70px;
+}
+/*------------------------------логотип-футер----------------------------- */
+.footer__logo {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.footer__accent-logo {
+  color: #ffffff;
+}
+.footer__address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-tittle-text-color);
+  margin-bottom: 9px;
+}
+.footer__contact {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__contact:hover,
+.footer__contact:focus {
+  color: var(--accent-color);
+}
+.footer__list {
+  display: block;
+}
+.footer__list .footer__item + .footer__item {
+  margin-top: 9px;
+}
+.footer__title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-tittle-text-color);
+}
+/*-------- Іконки футера----- */
+.footer__socials {
+  margin-right: 70px;
+}
+.footer__icon {
+  fill: #ffffff;
+}
+.footer__link {
+  background: rgba(255, 255, 255, 0.1);
+}

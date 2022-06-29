@@ -1,0 +1,46 @@
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  border-bottom: var(--primary-text-color) solid 1px;
+  background: #ffffff;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-contact__list {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contact__list .header-contact__item + .header-contact__item {
+  margin-left: 50px;
+}
+
+.header-contact__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-contact__link:hover,
+.header-contact__link:focus {
+  color: var(--accent-color);
+}
+.header-contact__icon {
+  margin-right: 10px;
+  justify-content: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  fill: currentColor;
+}
